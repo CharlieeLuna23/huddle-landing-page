@@ -1,0 +1,142 @@
+:root{
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--violet);
+  background-image: url(./images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  height: 100vh;
+}
+
+h1{
+  font-size: 26px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+p{
+  font-size: 16px;
+  line-height: 28px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.logo{
+  height: auto;
+  width: 140px;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.mockup{
+  height: auto;
+  width: 100%;
+}
+
+.container{
+  margin: 60px 30px 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.description{
+  margin-top: 70px;
+
+}
+
+.btn{
+  margin-top: 10px;
+  width: 200px;
+  height: 45px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+  color: var(--violet);
+  transition: 0.4s ease;
+}
+
+.btn:hover{
+  background-color: var(--soft-magenta);
+  color: white;
+}
+
+.social-media{
+  margin-top: 50px;
+}
+
+.fa-brands{
+  color: white;
+  margin: 10px;
+  transition: 0.4s ease;
+}
+
+.fa-2x:hover{
+  color: var(--soft-magenta);
+}
+
+footer{
+position: fixed;
+bottom: 10px;
+left: 10px;
+margin: 0;
+}
+
+.attribution { font-size: 11px; text-align: center; margin: 0; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (min-width: 1080px) {
+  body{
+    background-image: url(./images/bg-desktop.svg);
+    background-size: 1660px;
+    margin: 0;
+  }
+  main{
+    height: 100vh;
+  }
+  h1{
+    font-size: 45px;
+    margin: 0;
+  }
+  p{
+    font-size: 20px;
+    line-height: 32px;
+    margin: 20px 0 20px 0;
+  }
+  .mockup{
+    width: 100vh;
+    height: auto;
+  }
+  .container{
+    flex-direction: row;
+    margin: 0 0 0 50px;
+
+  }
+  .description{
+    width: 580px;
+    margin: 0 50px 0 50px;
+    text-align: left;
+  }
+  .social-media{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+  }
+}
