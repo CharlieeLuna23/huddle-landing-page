@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/CharlieeLuna23/huddle-landing-page.git)
+- Live Site URL: (https://charlieeluna23.github.io/huddle-landing-page/)
 
 ## My process
 
